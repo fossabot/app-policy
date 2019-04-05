@@ -4,6 +4,7 @@ Application Layer Policy for [Project Calico][calico] enforces network and
 application layer authorization policies using [Istio].
 
 ![arch](https://github.com/projectcalico/app-policy/raw/master/docs/arch.png)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Flmm%2Fapp-policy.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Flmm%2Fapp-policy?ref=badge_shield)
 
 Istio mints and distributes cryptographic identities and uses them to establish mutually authenticated TLS connections
 between pods.  Calico enforces authorization policy on this communication integrating cryptographic identities and 
@@ -24,3 +25,7 @@ Application Layer Policy is described in the [Project Calico docs][docs].
  [istio]: https://istio.io
  [docs]: https://docs.projectcalico.org/latest
  
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Flmm%2Fapp-policy.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Flmm%2Fapp-policy?ref=badge_large)
